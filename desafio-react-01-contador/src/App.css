@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #3a6475;
+}
+
+#main{
+  min-width: 20vw;
+  min-height: 25vh;
+  margin-top: 25vh;
+  padding: 2vh 2vw;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  background-color: #3a6475;
+  color: aliceblue;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height: 5vh;
+  align-self: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+h2{
+  font-size: 2em;
+}
+
+
