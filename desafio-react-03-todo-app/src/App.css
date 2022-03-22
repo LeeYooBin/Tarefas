@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3a6475;
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  padding: 2%;
+  margin-top: 5vh;
+  background-color: aliceblue;
+  width: 30vw;
+  height: auto;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+label {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#input {
+  padding: 1%;
+  width: 20vw;
+  height: auto;
+  font-size: 1em;
+}
+
+#add-task {
+  padding: 1.8%;
+  width: 5vw;
+  border: none;
+  background-color: #3a6475;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+ul {
+  width: 85%;
+  margin-top: 3vh;
+  margin-left: 1.6vw;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 1.5vh;
+}
+
+.clean {
+  width: 5vw;
+  height: auto;
+  border: none;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+#FaTrashAlt{
+  font-size: 1.5rem;
+  color: #3a6475;
+  align-self: center;
+  margin-bottom: 0.5vh;
+}
